@@ -1,0 +1,41 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+{
+  "naming_convention": {
+    "components": "PascalCase",
+    "files": {
+      "components": "PascalCase.vue",
+      "views": "camelCase.vue",
+      "utils": "camelCase.js"
+    },
+    "variables": "camelCase",
+    "constants": "UPPER_SNAKE_CASE",
+    "css_classes": "kebab-case"
+  },
+  "component_structure": {
+    "order": [
+      "<template>",
+      "<script>",
+      "<style>"
+    ],
+    "script_order": [
+      "name",
+      "components",
+      "props",
+      "data",
+      "computed",
+      "watch",
+      "created/mounted",
+      "methods"
+    ]
+  },
+  "style_guide": {
+    "indentation": 4,
+    "quotes": "single",
+    "semicolons": "always",
+    "trailing_comma": "none"
+  }
+}

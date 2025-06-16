@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+{
+  "image_processing": {
+    "pixel_value_display": "显示图像像素值，区分黑白和彩色图像",
+    "canvas_manipulation": "使用Canvas API进行图像分析和处理"
+  },
+  "workflows": {ß
+    "camera_config": "相机配置参数验证和限制",
+    "quality_monitoring": "质量监控实时数据处理",
+    "conditional_ui": "基于workflowType的条件样式应用"
+  },
+  "real_time_data": {
+    "event_source": "使用EventSource进行服务器推送",
+    "incremental_updates": "累计值与增量值的显示转换",
+    "resource_cleanup": "组件销毁时清理资源连接"
+  }
+}

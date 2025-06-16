@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+{
+  "framework": "Vue 2.0",
+  "ui_library": "ElementUI",
+  "language": "JavaScript",
+  "style_processor": "SCSS",
+  "state_management": "Vuex",
+  "api_communication": {
+    "standard_requests": "axios",
+    "real_time_data": "EventSource"
+  },
+  "build_tools": "webpack"
+}

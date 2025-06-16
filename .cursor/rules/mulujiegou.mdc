@@ -1,0 +1,21 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+{
+  "src": {
+    "api": "接口请求定义，按模块划分",
+    "assets": "静态资源文件",
+    "components": "公共组件",
+    "router": "路由配置",
+    "store": "Vuex状态管理",
+    "styles": "全局样式定义",
+    "utils": "工具函数",
+    "views": {
+      "console": "控制台相关页面",
+      "crop": "图像裁剪相关页面",
+      "workflowConfig": "工作流配置相关页面"
+    }
+  }
+}
